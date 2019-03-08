@@ -1,6 +1,6 @@
 /*总体效果*/
 body{
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	background-color:#f3f3f3;
 }
 body,html{
@@ -58,7 +58,7 @@ a.bn_a2{
 	margin-right:16px;
 	text-align: center; 
 	vertical-align:middle;
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	font-size:16px;
 	background: #ffffff;
 	display: block;
@@ -149,14 +149,14 @@ a.bn_a2:hover{
 	height:29px;
     background-color: #ffffff;
     color: #000000;
-	font-family:黑体;
+	font-family:微软雅黑;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
 .dropdown-content {
 	font-size:16px;
-	font-family:华文中宋;
+	font-family:微软雅黑;
     display: none;
     position: absolute;
     background-color: #ffffff;
@@ -208,7 +208,7 @@ a.bn_a2:hover{
 	padding-top:25px;
 	padding-bottom:15px;
 	font-size:18px;
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	font-weight:bold;
 }
 .xueyuanlb{
@@ -216,7 +216,7 @@ a.bn_a2:hover{
 	padding-top:0px;
 	padding-bottom:15px;
 	font-size:16px;
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	font-weight:normal;
 }
 .txlb{
@@ -364,7 +364,7 @@ h3{
 	padding-top:20px;
 }
 a.toutiaoword{
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	font-size:21.34px;
 	color:#000000;
 }
@@ -441,7 +441,7 @@ h4{
 	padding-top:25px;
 	padding-bottom:15px;
 	font-size:18px;
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	font-weight:bold;
 }
 .xueyuanlb2{
@@ -449,7 +449,7 @@ h4{
 	padding-top:0px;
 	padding-bottom:15px;
 	font-size:16px;
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	font-weight:normal;
 }
 /*图片集*/
@@ -537,7 +537,7 @@ h4{
 	padding-bottom:0px;
 }
 h5{
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	font-size:16.67px;
 	font-weight:normal;
 	line-height:20.67px;
@@ -553,7 +553,7 @@ a.footword{
 	padding-top:20px;
 	font-size:13.34px;
 	line-height:20.67px;
-	font-family:华文中宋;
+	font-family:微软雅黑;
 }
 #foot{
 	width:1900px;
@@ -597,7 +597,7 @@ a.footword{
 	padding-right:30px;
 }
 .zuihouwenzi{
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	font-size:12.67px;
 	line-height:26.67;
 }

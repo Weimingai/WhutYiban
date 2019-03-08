@@ -1,6 +1,6 @@
 /*总体效果*/
 body{
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	background-color:#f3f3f3;
 }
 body,html{
@@ -59,7 +59,7 @@ a.bn_a2{
 	margin-right:16px;
 	text-align: center; 
 	vertical-align:middle;
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	font-size:16px;
 	background: #ffffff;
 	display: block;
@@ -150,7 +150,7 @@ a.bn_a2:hover{
 	height:29px;
     background-color: #ffffff;
     color: #000000;
-	font-family:黑体;
+	font-family:微软雅黑;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -159,7 +159,7 @@ a.bn_a2:hover{
 .dropdown-content {
 	padding-top:26px;
 	font-size:16px;
-	font-family:华文中宋;
+	font-family:微软雅黑;
     display: none;
     position: absolute;
     background-color: #ffffff;
@@ -414,7 +414,8 @@ h2{
 	padding-bottom:0px;
 	width:130px;
 	vertical-align:top;
-	font-family:华文中宋;
+	font-family:微软雅黑;
+	font-weight:bold;
 	font-size:16px;
 	color:#2e2e2e;
 }
@@ -512,12 +513,13 @@ a.biaoti:hover{color:#32b16c;}
 a.toutiaoword{
 	color: #000000;
 	font-weight: bold;
+	font-family:微软雅黑;
 	line-height: 18px;
 	font-size: 14.67px;
 }
 a.toutiaoword2{
 	color: #000000;
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	line-height: 20.67px;
 	font-size: 16px;
 }
@@ -597,9 +599,9 @@ h4{
 	background: #e1e1e1;
 	color: #000000;
 	border-radius: 6px; 
-	font-size:15.28px;
+	font-size:16.28px;
 	line-height:13.66px;
-	font-family:华文中宋;
+	font-family:黑体;
 	cursor:pointer;
 }
 
@@ -647,7 +649,7 @@ h4{
 	padding-bottom:0px;
 }
 h5{
-	font-family:华文中宋;
+	ffont-family:微软雅黑;
 	font-size:16.67px;
 	font-weight:normal;
 	line-height:20.67px;
@@ -663,7 +665,7 @@ a.footword{
 	padding-top:20px;
 	font-size:13.34px;
 	line-height:20.67px;
-	font-family:华文中宋;
+	font-family:微软雅黑;
 }
 #foot{
 	width:1580px;
@@ -707,7 +709,7 @@ a.footword{
 	padding-right:30px;
 }
 .zuihouwenzi{
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	font-size:12.67px;
 	line-height:26.67;
 }
