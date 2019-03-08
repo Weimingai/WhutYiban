@@ -42,7 +42,7 @@
             "scale": 0.8, //记录显示比例关系	
             "speed": 1000,
             "autoPlay": true,
-            "delay": 2000,//自动播放间隔时间
+            "delay": 5000,//自动播放间隔时间
             "verticalAlign": "bottom" //top bottom middle
         };
         $.extend(this.setting, this.getSetting());
