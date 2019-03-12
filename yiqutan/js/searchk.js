@@ -41,6 +41,7 @@ function changesearch(){
 				}
 		}
 		*/
+		/*
 		function changesearch() {
             var divDisp = document.getElementById("sousuok").style.display;
             if (divDisp == "block") {
@@ -49,6 +50,8 @@ function changesearch(){
                 document.getElementById("sousuok").style.display = "block";
             }
         }
+		*/
+		/*
 		function changexuanze() {
 			var d=false;
 			if(!d){
@@ -66,8 +69,9 @@ function changesearch(){
             } else {
                 document.getElementById("zhezhao").style.display = "block";
             }
-			
+			*/
         }
+		
 	
 		
 		

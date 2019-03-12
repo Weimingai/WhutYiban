@@ -77,11 +77,11 @@
 	</div>
 	
 	<div id="xuanze">
-		<button id="xdanji" class="axuanze" onclick="changexuanze()">选择栏目</button>
+		<button id="xdanji" class="axuanze" onclick="changexuanze()">--请选择栏目--</button>
 	</div>
 	
 	<div id="bta">
-	<img class="ktt1"  src="../pictures/yizhuantiphone/三杠.png"  height=60% />
+	<div class="ktt1"> 更多</div>
 	<div id="kong3">
 	<span class="kt"><img class="ktt2"  src="../pictures/yizhuantiphone/图标.png" height=60% /></span><span class="kz">学院活动</span>
 	</div>
@@ -361,13 +361,20 @@
 	<div id="daohangh">
 	<div id="daohangzi">
 	<a href="http://www.whutyiban.com/" ><button class="adzi">理工易班网</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=2" ><button class="adzi">易新闻</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	<a href="" ><button class="adzi">易趣谈</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=119" ><button class="adzi">易学院</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=54" ><button class="adzi">易专题</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	<a href="" ><button class="adzi">易课堂</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=61" ><button class="adzi">易班人</button></a>
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	</div>
 	</div>
 	
@@ -395,7 +402,39 @@
 	<script src="../js/jquery-1.11.1.min.js"></script>
 	<script src="../js/unslider.min.js"></script>	
 
+ <script>
+	 //选择栏目
+ $(function() {
+ $(".axuanze").click(function() {
+    $("#zhezhao").slideToggle();
+	var a=document.getElementById("context");
+				a.classList.add("blur");
+  });
+  
+   $("#zhezhao").click(function() {
+    $("#zhezhao").slideToggle();
+	var a=document.getElementById("context");
+				a.classList.remove("blur");
+  });
+  
+});
+ </script>
+ 
+ <script>
+	 //搜索框
+ $(function() {
+ $("#sousuo").click(function() {
+    $("#sousuok").slideToggle();
 
+  });
+  
+   $("#sousuok").click(function() {
+    $("#sousuok").slideToggle();
+
+  });
+  
+});
+ </script>
 </body>  
   
 </html>  

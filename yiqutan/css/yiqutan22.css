@@ -167,7 +167,7 @@ a.bn_a2:hover{
 }
 .dropdown-content a {
 	
-    color: #32b16c;
+    color: #000000;
     padding-left: 12px;
 	padding-right: 12px;
 	padding-top:6px;
@@ -177,7 +177,7 @@ a.bn_a2:hover{
     display: block;
 	text-align:left;
 }
-.dropdown-content a:hover {background-color:#32b16c;color:#ffffff;}
+.dropdown-content a:hover {background-color:#f5f5f5;color:#32b16c;}
 
 .dw:hover .dropdown-content {
     display: block;
@@ -294,7 +294,7 @@ a.wenzi1:hover{
 	padding-bottom:0px;
 }
 #bodyright1{
-	width: 310px;
+	width: 300px;
 
 	margin-left:15px;
 	margin-right: 0px;
@@ -304,7 +304,6 @@ a.wenzi1:hover{
 	padding-right: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	
 }
 #changyong{
 	padding-top:15px;
@@ -332,7 +331,7 @@ h2{
 .xiahuaxian{
 			margin-top:10px;
 			margin-bottom:15px;
-			margin-left:20px;
+			margin-left:12px;
             width:250px;
             height:1.5px;
             background: -webkit-linear-gradient(left, #ffffff 14%,#000000 50%,#ffffff 100%);
@@ -342,7 +341,7 @@ h2{
 	height:66px;
 	border-radius: 10px; 
 	text-align:center;
-	margin-left:10px;
+	margin-left:5px;
 	margin-right:0px;
 	margin-top:0px;
 	margin-bottom:0px;
@@ -359,7 +358,7 @@ h2{
 }
 #btbox{
 	height:152px;
-	width:314px;
+	width:300px;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
@@ -372,7 +371,7 @@ h2{
 }
 #redbt{
 	background-color:#d35654;
-	margin-left:20px;
+	margin-left:18px;
 }
 #bluebt{
 	background-color:#24abdb;
@@ -381,13 +380,13 @@ h2{
 	background-color:#5ccb6f;
 }
 #recommendedbox{
-	width:294px;
+	width:282px;
 	height:848px;
 	margin-left:0px;
 	margin-right: 0px;
 	margin-top: 22px;
 	margin-bottom: 0px;
-	padding-left: 20px;
+	padding-left: 18px;
 	padding-right: 0px;
 	padding-top: 3px;
 	padding-bottom: 0px;
@@ -408,13 +407,14 @@ h2{
 	margin-right:0px;
 	margin-top:0px;
 	margin-bottom:0px;
-	padding-left:20px;
+	padding-left:13px;
 	padding-right:0px;
 	padding-top:0px;
 	padding-bottom:0px;
 	width:130px;
 	vertical-align:top;
-	font-family:华文中宋;
+	font-family:微软雅黑;
+	font-weight:bold;
 	font-size:16px;
 	color:#2e2e2e;
 }
@@ -449,7 +449,7 @@ color:#32b16c;
 	padding-bottom:0px;
 }
 .table3{
-	width:240px;
+	width:245px;
 	margin-left:0px;
 	margin-right:0px;
 	margin-top:0px;
@@ -472,8 +472,8 @@ color:#32b16c;
 	line-height:1.1;
 	padding-top:8px;
 	padding-bottom:8px;
-	padding-left:5px;
-	padding-right:1px;
+	padding-left: 6px;
+	padding-right: 5px;
 }
 
 .time{
@@ -490,17 +490,22 @@ color:#32b16c;
 	text-align: right;
 	line-height: 2.5;
 }
-a.biaoti{color:#000000;}
+a.biaoti{
+	color:#000000;
+	
+	/*padding-right: 5px;*/
+	}
 a.biaoti:hover{color:#32b16c;}
 .jianjie{
+	
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color: #7c7c7c;
-	font-size: 12px;
-	padding-left: 5px;
-	padding-right: 1px;
+	font-size: 12.25px;
+	padding-left: 6px;
+	padding-right: 5px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	line-height:20px;
@@ -512,12 +517,14 @@ a.biaoti:hover{color:#32b16c;}
 a.toutiaoword{
 	color: #000000;
 	font-weight: bold;
+	font-family:微软雅黑;
 	line-height: 18px;
 	font-size: 14.67px;
+	
 }
 a.toutiaoword2{
 	color: #000000;
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	line-height: 20.67px;
 	font-size: 16px;
 }
@@ -574,7 +581,7 @@ h4{
 #anniu{
 	width:600px;
 	height:50px;
-	margin-left:495px;
+	margin-left:505px;
 	margin-right:0px;
 	margin-top:0px;
 	margin-bottom:0px;

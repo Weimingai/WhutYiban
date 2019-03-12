@@ -19,12 +19,14 @@ $(document).ready(function(){
 	div.removeClass("dest").animate({left:"100%"});
 	} else {
 	
-	div.addClass("dest").animate({left:"75%"});
+	div.addClass("dest").animate({left:"40%"});
 	
   }
   })
   })
   
+
+ 
  /*轮播代码*/
   $(document).ready(function(e) {
     var unslider04 = $('#b04').unslider({

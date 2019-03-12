@@ -36,7 +36,7 @@
 		</a></td>
 		<td class="dtable">
 	
-			<img id="sousuo" width=100% onclick="changesearch()"
+			<img id="sousuo" width=100% 
 			src="../pictures/yiqutanphone/搜索.png" 
 			alt="">
 		</td>
@@ -77,7 +77,7 @@
 	</div>
 	
 	<div id="xuanze">
-		<button id="xdanji" class="axuanze" onclick="changexuanze()">选择栏目</button>
+		<button id="xdanji" class="axuanze" onclick="changexuanze()">--请选择栏目--</button>
 	</div>
 	
 	<div id="lanmu">
@@ -163,7 +163,7 @@
 	
 	
 	<div id="more">
-		<a href="" class="amore" >更&nbsp &nbsp  &nbsp &nbsp多</a>
+		<a href="" class="amore" >&nbsp;&nbsp;&nbsp;查看更多</a>
 	</div>
 	
 	<div id="foot">
@@ -215,15 +215,23 @@
 	<div id="daohangh">
 	<div id="daohangzi">
 	<a href="http://www.whutyiban.com/" ><button class="adzi">理工易班网</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=2" ><button class="adzi">易新闻</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	<a href="" ><button class="adzi">易趣谈</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=119" ><button class="adzi">易学院</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=54" ><button class="adzi">易专题</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	<a href="" ><button class="adzi">易课堂</button></a><br />
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=61" ><button class="adzi">易班人</button></a>
+	<div style="width:80%; border:1px solid #c3c3c3;"></div>
 	</div>
 	</div>
+	
 	
 	<div id="sousuok">
 	<table id="tsousuo">
@@ -233,6 +241,7 @@
 	</tr>
 	</table>
 	</div>
+
 	
 	<div id="zhezhao">
 	<div id="zhebt">
@@ -248,7 +257,40 @@
 	
 	<script src="../js/jquery-1.11.1.min.js"></script>
 	<script src="../js/unslider.min.js"></script>	
+	
+	 <script>
+	 //选择栏目
+ $(function() {
+ $(".axuanze").click(function() {
+    $("#zhezhao").slideToggle();
+	var a=document.getElementById("context");
+				a.classList.add("blur");
+  });
+  
+   $("#zhezhao").click(function() {
+    $("#zhezhao").slideToggle();
+	var a=document.getElementById("context");
+				a.classList.remove("blur");
+  });
+  
+});
+ </script>
+ 
+ <script>
+	 //搜索框
+ $(function() {
+ $("#sousuo").click(function() {
+    $("#sousuok").slideToggle();
 
+  });
+  
+   $("#sousuok").click(function() {
+    $("#sousuok").slideToggle();
+
+  });
+  
+});
+ </script>
 
 </body>  
   
