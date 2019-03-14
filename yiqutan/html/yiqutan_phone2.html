@@ -141,14 +141,16 @@
 	
 	
 	<div id="buttons">
-		<a  href="" ><button class="ye1">首页</button></a>
-		<a  href="" ><button class="ye2">上一页</button></a>
-		<a  href="" ><button class="ye3">1</button></a>
+		<a  href="" ><button class="ye4">149</button></a>
 		<a  href="" ><button class="ye3">2</button></a>
-		<a  href="" ><button class="ye3" id="nowpage">3</button></a>
+		<a  href="" ><button class="ye3" >3</button></a>
 		<a  href="" ><button class="ye3">4</button></a>
 		<a  href="" ><button class="ye3">5</button></a>
-		<a  href="" ><button class="ye2">下一页</button></a>
+		<a  href="" ><button class="ye3" >6</button></a>
+		<a  href="" ><button class="ye3">7</button></a>
+		<a  href="" ><button class="ye3">8</button></a><br />
+		<a  href="" ><button class="ye3">9</button></a>
+		<a  href="" ><button class="ye2" id="nowpage">下一页</button></a>
 		<a  href="" ><button class="ye1">尾页</button></a>
 	</div>
 	
@@ -211,24 +213,27 @@
 	<div id="daohangh">
 	<div id="daohangzi">
 	<a href="http://www.whutyiban.com/" ><button class="adzi">理工易班网</button></a><br />
-	<div style="width:80%; border:1px solid #c3c3c3;"></div>
+	<hr class="huaxian" />
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=2" ><button class="adzi">易新闻</button></a><br />
-	<div style="width:80%; border:1px solid #c3c3c3;"></div>
+	<hr class="huaxian" />
 	<a href="" ><button class="adzi">易趣谈</button></a><br />
-	<div style="width:80%; border:1px solid #c3c3c3;"></div>
+	<hr class="huaxian" />
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=119" ><button class="adzi">易学院</button></a><br />
-	<div style="width:80%; border:1px solid #c3c3c3;"></div>
+	<hr class="huaxian" />
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=54" ><button class="adzi">易专题</button></a><br />
-	<div style="width:80%; border:1px solid #c3c3c3;"></div>
+	<hr class="huaxian" />
 	<a href="" ><button class="adzi">易课堂</button></a><br />
-	<div style="width:80%; border:1px solid #c3c3c3;"></div>
+	<hr class="huaxian" />
 	
 	<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=61" ><button class="adzi">易班人</button></a>
-	<div style="width:80%; border:1px solid #c3c3c3;"></div>
+	<hr class="huaxian" />
 	</div>
 	</div>
 	
 	<div id="sousuok">
+	<img class="cha" 
+			src="../pictures/yiqutanphone/tmueng.png" width=5%;
+			alt="cha" />
 	<table id="tsousuo">
 	<tr>
 	<td class="sousuot"><input type="text" class="textk" ></td>
@@ -277,7 +282,7 @@
 
   });
   
-   $("#sousuok").click(function() {
+   $(".cha").click(function() {
     $("#sousuok").slideToggle();
 
   });

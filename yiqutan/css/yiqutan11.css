@@ -41,31 +41,42 @@ ul{
 }
 
 #logo{
-	padding-right:50px;
+	padding-right:20px;
 }
 li.bn_bt{
 	float: left;	
+	padding-top: 0px ;
 }
 
 a.bn_a2{
-
-	height: 25px;
-	margin-right: 0px;
-	padding-top: 4px ;
+	width:80px;
+	height: 33px;
+	
+	padding-top: 6px ;
+	padding-bottomp: 0px ;
 	padding-left:2px;
 	padding-right:2px;
+	margin-top:4px;
 	margin-left:0px;
-	margin-right:16px;
+	margin-right:12px;
 	text-align: center; 
 	vertical-align:middle;
 	font-family:微软雅黑;
 	font-size:16px;
+	
 	background: #ffffff;
 	display: block;
 	color: #000000; 
 }
+#bt3{
+	width:95px;
+}
+#bt4{
+	width:65px;
+}
 
 a.bn_a2:hover{
+	
 	background: #32b16c;
 	color: #ffffff;
 	border-radius: 6px; 
@@ -85,7 +96,7 @@ a.bn_a2:hover{
 
 #right{
 	position:relative;
-	padding-left:160px;
+	padding-left:150px;
 	overflow:hidden;
 }
 .dsp{
@@ -118,11 +129,12 @@ a.bn_a2:hover{
 	text-align: center; 
 	background: #32b16c;
 	color: #ffffff;
-	font-size:16px;
-	font-family:黑体;
+	font-size:15px;
+	font-family:微软雅黑;
 	border-top-right-radius: 6px;
 	border-bottom-right-radius: 6px;
 	padding-top:2px;
+	padding-bottom:3px;
 }
 .bt1{
 	width:61px;
@@ -133,20 +145,22 @@ a.bn_a2:hover{
 	margin-bottom:0px;
 	padding-left:px;
 	padding-right:0px;
-	padding-top:2.5px;
-	padding-bottom:0px;
+	padding-top:2px;
+	padding-bottom:2px;
 	border: none;
 	text-align: center; 
 	background: #32b16c;
 	color: #ffffff;
-	border-radius: 6px; 
-	font-size:16px;
-	font-family:黑体;
+	border-radius: 8px; 
+	font-size:15px;
+	font-family:微软雅黑;
 }
 .bt
 {
 	width:90px;
-	height:29px;
+	height:35px;
+	margin-top:6px;
+	padding-bottom:6px;
     background-color: #ffffff;
     color: #000000;
 	font-family:微软雅黑;
@@ -165,7 +179,6 @@ a.bn_a2:hover{
     min-width: 90px;
 }
 .dropdown-content a {
-	
     color: #000000;
     padding-left: 12px;
 	padding-right: 12px;
@@ -265,6 +278,7 @@ a.bn_a2:hover{
 	bottom:65px;
 	font-family:微软雅黑;
 	font-size:16px;
+	font-weight:bold;
 	line-height:23.34px;
 	color:#ffffff;
 	background-color:rgba(0,0,0,0.3);
@@ -299,7 +313,7 @@ a.bn_a2:hover{
 	padding-bottom:0px;
 }
 .tablemax{
-	
+	vertical-align:top;
 	margin-left::0px;
 	margin-right:0px;
 	margin-top:0px;
@@ -321,7 +335,6 @@ a.bn_a2:hover{
 }
 #bodyright1{
 	width: 300px;
-
 	margin-left:15px;
 	margin-right: 0px;
 	margin-top: 0px;
@@ -499,17 +512,16 @@ color:#32b16c;
 	margin-right:0px;
 	margin-top:0px;
 	margin-bottom:0px;
-	font-size:18px;
 	line-height:1.1;
 	padding-top:8px;
 	padding-bottom:8px;
-	padding-left: 6px;
-	padding-right: 5px;
+	padding-left: 13px;
+	padding-right: 10px;
 }
 
 .time{
 	padding-left: 2px;
-	padding-right: 5px;
+	padding-right: 10px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	margin-left: 0px;
@@ -528,15 +540,15 @@ a.biaoti{
 	}
 a.biaoti:hover{color:#32b16c;}
 .jianjie{
-	
+	font-family:微软雅黑;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color: #7c7c7c;
-	font-size: 12.25px;
-	padding-left: 6px;
-	padding-right: 5px;
+	font-size: 11.67px;
+	padding-left: 13px;
+	padding-right: 10px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	line-height:20px;
@@ -549,11 +561,12 @@ a.toutiaoword{
 	color: #000000;
 	font-weight: bold;
 	font-family:微软雅黑;
-	line-height: 18px;
-	font-size: 14.67px;
+	line-height: 18.37px;
+	font-size: 14.27px;
 	
 }
 a.toutiaoword2{
+	font-weight: normal;
 	color: #000000;
 	font-family:微软雅黑;
 	line-height: 20.67px;
@@ -666,7 +679,7 @@ h4{
 	background: rgba(0, 0, 0, 0.5);
     color:#ffffff;
     line-height: 30.67px;
-	font-family:华文中宋;
+	font-family:微软雅黑;
 	font-size:18px;
 	padding-top:40px;
     height:0px;
@@ -698,13 +711,13 @@ h4{
 /*footer*/
 
 #photo{
-	margin-left:46px;
+	margin-left:48px;
 	margin-right:0px;
 	margin-top:0px;
 	margin-bottom:0px;
 	padding-left:0px;
 	padding-right:0px;
-	padding-top:65px;
+	padding-top:35px;
 	padding-bottom:0px;
 }
 #wenzi{
@@ -715,12 +728,12 @@ h4{
 	margin-bottom:0px;
 	padding-left:0px;
 	padding-right:0px;
-	padding-top:60px;
+	padding-top:35px;
 	padding-bottom:0px;
 }
 h5{
 	font-family:微软雅黑;
-	font-size:16.67px;
+	font-size:15.67px;
 	font-weight:normal;
 	line-height:20.67px;
 }
@@ -733,9 +746,9 @@ a.footword{
 }
 #zuihou{
 	padding-top:20px;
-	font-size:13.34px;
+	font-size:13px;
 	line-height:20.67px;
-	font-family:华微软雅黑;
+	font-family:微软雅黑;
 }
 #foot{
 	width:1900px;
@@ -780,6 +793,11 @@ a.footword{
 }
 .zuihouwenzi{
 	font-family:微软雅黑;
-	font-size:12.67px;
+	font-size:14px;
 	line-height:26.67;
+}
+.zuihou1wenzi{
+	font-family:微软雅黑;
+	font-size:14px;
+	padding-left:8px;
 }

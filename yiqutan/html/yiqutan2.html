@@ -6,12 +6,19 @@
 <title>校园荟萃-易趣谈-武汉理工大学易班官方网站</title>
 <script>
     // 分辨率大于等于1680，大部分为1920的情况下，调用此css
-    if(window.screen.width >= 1680){
-        document.write('<link type="text/css" rel="stylesheet" href="../css/yiqutan22.css" media="screen"  />');
+    // 分辨率<=1400
+	if(window.screen.width <=1400)
+	{
+		 document.write('<link type="text/css" rel="stylesheet" href="../css/yiqutan222.css" media="screen"  />');
+	}
+	//1600
+    else if(window.screen.width <1900){
+		document.write('<link type="text/css" rel="stylesheet" href="../css/yiqutan2.css" media="screen"  />');
+        
     }
-    // 分辨率小于等于1600的情况下，调用此css
+    //1900
     else{
-        document.write('<link type="text/css" rel="stylesheet" href="../css/yiqutan2.css" media="screen"  />');
+       document.write('<link type="text/css" rel="stylesheet" href="../css/yiqutan22.css" media="screen"  />');
     }
 </script>
 
@@ -625,13 +632,15 @@
 	</table>
 	</div>
 	<div id="anniu">
-		<button class="btpage btpages" >首页</button> 
-		<button class="btpage btpagey" id="shangy">上一页</button>
-		<button class="btpage btpagen" >1</button> 
+		<button class="btpage btpagez" >149</button>  
 		<button class="btpage btpagen" id="two">2</button> 
-		<button class="btpage nowbt btpagen" >3</button>
+		<button class="btpage btpagen" >3</button>
 		<button class="btpage btpagen" id="four">4</button> 
 		<button class="btpage btpagen" >5</button>
+		<button class="btpage btpagen" >6</button>
+		<button class="btpage btpagen" >7</button>
+		<button class="btpage btpagen" >8</button>
+		<button class="btpage btpagen" >9</button>
 		<button class="btpage btpagey" >下一页</button>
 		<button class="btpage btpages" id="weiy">尾页</button>
 	</div>

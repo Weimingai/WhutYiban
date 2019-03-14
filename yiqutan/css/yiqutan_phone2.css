@@ -220,10 +220,10 @@ h2{
 /*更多*/
 #buttons{
 	width:100%;
-	height:4%;
-	font-family:黑体;
-	font-size:80%;
-	margin-left:5%;	
+	height:10%;
+	font-family:微软雅黑;
+	font-size:110%;
+	margin-left:0%;	
 	margin-right:0%;
 	margin-top:4%;
 	margin-bottom:3%;
@@ -231,12 +231,30 @@ h2{
 	padding-right:0%;
 	padding-top:0%;
 	padding-bottom:0%;
+	text-align:center;
 }
-.ye1{
-	width:9%;
+.ye4{
+	width:10%;
 	height:100%;
 	background-color:#e1e1e1;
-	color:#7c7c7c;
+	color:#000000;
+	border:none;
+	margin-left:0%;	
+	margin-right:0.8%;
+	margin-top:0%;
+	margin-bottom:2%;
+	padding-left:0%;
+	padding-right:0%;
+	padding-top:1.5%;
+	padding-bottom:1.5%;
+	border-radius: 3px;
+	font-weight:bold;
+}
+.ye1{
+	width:11%;
+	height:100%;
+	background-color:#e1e1e1;
+	color:#000000;
 	border:none;
 	margin-left:0%;	
 	margin-right:0.8%;
@@ -252,7 +270,7 @@ h2{
 	width:13%;
 	height:100%;
 	background-color:#e1e1e1;
-	color:#7c7c7c;
+	color:#000000;
 	border:none;
 	margin-left:0%;	
 	margin-right:0.8%;
@@ -265,10 +283,10 @@ h2{
 	border-radius: 3px;
 }
 .ye3{
-	width:6.5%;
+	width:10%;
 	height:100%;
 	background-color:#e1e1e1;
-	color:#7c7c7c;
+	color:#000000;
 	border:none;
 	margin-left:0%;	
 	margin-right:0.8%;
@@ -281,8 +299,8 @@ h2{
 	border-radius: 3px;
 }
 #nowpage{
-	background-color:#32b16c;
-	color:#ffffff;
+	background-color:#e1e1e1;
+	color:#32b16c;
 }
 .ye1:hover{
 	background-color:#32b16c;
@@ -382,6 +400,7 @@ a.footword{
 	right:-7%;
 	opacity:0.8; 
 }
+
 /*右边滑出的导航栏*/
 #daohangh{
 	margin-top:15%;
@@ -406,7 +425,7 @@ a.footword{
 .adzi{
 	padding-left:0%;
 	font-family:微软雅黑;
-	font-size:100%;
+	font-size:85%;
 	text-align:left;
 	color:#ffffff;
 	border:none;
@@ -422,9 +441,10 @@ a.footword{
 }
 
 .huaxian{
-	width:40%;
-	color:f3f3f3;
-	font-weight:1px;
+	width:80%; 
+	height:1px;
+	border:none;
+	border-top:1px solid #c3c3c3;
 }
 /*点击出现的搜索框*/
 
@@ -438,15 +458,20 @@ a.footword{
 	position:fixed;
 	display:none;
 }
+.cha{
+	padding-top:5%;
+	padding-bottom:3%;
+	padding-left:85%;
+}
 #tsousuo{
-	margin-top:15%;
+	margin-top:0%;
 	width:100%;
 	height:6%;
 	background-color:#32b16c;
-	padding-left:1%;
+	padding-left:0.5%;
 	padding-right:2%;
-	padding-top:1%;
-	padding-bottom:1%;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
 	
 }
 .textk{
@@ -466,8 +491,8 @@ a.footword{
 	cursor:pointer;
 	width:120%;
 	height:100%;
-	font-family:华文中宋;
-	font-size:100%;
+	font-family:微软雅黑;
+	font-size:80%;
 	color:#ffffff;
 	background-color:#32b16c;
 	border:none;
@@ -480,7 +505,7 @@ a.footword{
 	margin-top:0%;
 	margin-bottom:0%;
 }
-/*栏目遮罩设计*/
+/*选择遮罩*/
 .blur{
 	/*
 	  -webkit-filter: blur(5px); 
@@ -505,7 +530,7 @@ a.footword{
 	padding-bottom:0%;
 	margin-left:0%;	
 	margin-right:0%;
-	margin-top:65%;
+	margin-top:50%;
 	margin-bottom:0%;
 }
 .xbt{
@@ -519,193 +544,12 @@ a.footword{
 	margin-right:0%;
 	margin-top:3%;
 	margin-bottom:3%;
-	font-family:华文中宋;
-	font-size:130%;
-	color:#000000;
-	background-color:#ffffff;
-	border:none;
-	border-radius: 6px; 
-	box-shadow: 0px 3px  0px 3px  #545454;
-}
-.xbt:hover{
-	color:#ffffff;
-	background-color:#32b16c;
-}
-
-/*导航栏下面的轮播*/
-.banner { position: relative; overflow: auto; text-align: center;}
-.banner li { list-style: none; }
-.banner ul li { float: left; }
-
-#b04 { width: 100%; height:40%}
-#b04 .dots { position: absolute; left: 0; right: 0; bottom: 25%;}
-#b04 .dots li 
-{ 
-	display: inline-block; 
-	width: 8px; 
-	height: 8px; 
-	margin: 0 4px; 
-	text-indent: -999em; 
-	border: none; 
-	background-color:#e1e1e1;
-	border-radius: 6px; 
-	cursor: pointer; 
-	opacity: 1; 
-	-webkit-transition: background .5s, opacity .5s; 
-	-moz-transition: background .5s, opacity .5s; 
-	transition: background .5s, opacity .5s;
-}
-#b04 .dots li.active 
-{
-	background: #32b16c;
-	opacity: 1;
-}
-#b04 .arrow { position: absolute; top: 30%;}
-#b04 #al { left: 5%;}
-#b04 #ar { right: 5%;}/*右边滑出的导航栏*/
-#daohangh{
-	margin-top:15%;
-	width:60%;
-	height:100%;
-	position:fixed;
-	top:0%;
-	left:100%;
-	opacity:0.85; 
-	background-color:#000000;
-	
-}
-#daohangzi{
-	margin-left:15%;
-	text-align:center;
-	padding-left:0%;
-	padding-right:0%;
-	margin-top:45%;
-	margin-bottom:0%;
-	padding-top:5%;
-}
-.adzi{
-	padding-left:0%;
 	font-family:微软雅黑;
 	font-size:100%;
-	text-align:left;
-	color:#ffffff;
-	border:none;
-	width:100%;
-	background-color:#000000;
-	margin-bottom:4%;
-	margin-top:4%;
-	border-bottom:1px #c3c3c3;
- 
-}
-.adzi:hover{
-	color:#32b16c;
-}
-
-.huaxian{
-	width:40%;
-	color:f3f3f3;
-	font-weight:1px;
-}
-/*点击出现的搜索框*/
-
-#sousuok{
-
-	top:0;
-	width:100%;
-	height:100%;
-	background: rgba(0, 0, 0, 0.8) ;
-	
-	position:fixed;
-	display:none;
-}
-#tsousuo{
-	margin-top:15%;
-	width:100%;
-	height:6%;
-	background-color:#32b16c;
-	padding-left:1%;
-	padding-right:2%;
-	padding-top:1%;
-	padding-bottom:1%;
-	
-}
-.textk{
-	width:100%;
-	height:100%;
-	padding-left:0%;
-	padding-right:0%;
-	padding-top:0%;
-	padding-bottom:0%;
-	margin-left:0%;	
-	margin-right:0%;
-	margin-top:0%;
-	margin-bottom:0%;
-	border:1px sold;
-}
-#sousuob{
-	cursor:pointer;
-	width:120%;
-	height:100%;
-	font-family:华文中宋;
-	font-size:100%;
-	color:#ffffff;
-	background-color:#32b16c;
-	border:none;
-	padding-left:2%;
-	padding-right:2%;
-	padding-top:2%;
-	padding-bottom:2%;
-	margin-left:0%;	
-	margin-right:0%;
-	margin-top:0%;
-	margin-bottom:0%;
-}
-/*栏目遮罩设计*/
-.blur{
-	/*
-	  -webkit-filter: blur(5px); 
-       -moz-filter: blur(5px);
-        -ms-filter: blur(5px);    
-            filter: blur(5px);
-	*/
-	top:0;
-}
-#zhezhao{
-	position:fixed;
-	top:0;
-	width:100%;
-	height:100%;
-	background: rgba(0, 0, 0, 0.8) ;
-	display:none;
-}
-#zhebt{
-	padding-left:0%;
-	padding-right:0%;
-	padding-top:0%;
-	padding-bottom:0%;
-	margin-left:0%;	
-	margin-right:0%;
-	margin-top:65%;
-	margin-bottom:0%;
-}
-.xbt{
-	width:90%;
-	height:10%;
-	padding-left:0%;
-	padding-right:0%;
-	padding-top:1%;
-	padding-bottom:1%;
-	margin-left:5%;	
-	margin-right:0%;
-	margin-top:3%;
-	margin-bottom:3%;
-	font-family:华文中宋;
-	font-size:130%;
 	color:#000000;
 	background-color:#ffffff;
-	border:none;
-	border-radius: 6px; 
-	box-shadow: 0px 3px  0px 3px  #545454;
+	border-radius: 0px; 
+	box-shadow: 0px 1.5px  1px 1px  #777777;
 }
 .xbt:hover{
 	color:#ffffff;
