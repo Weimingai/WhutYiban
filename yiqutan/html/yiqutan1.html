@@ -4,29 +4,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
 <title>易趣谈-武汉理工大学易班官方网站</title>
-<script>
-    // 分辨率<=1400
-	if(window.screen.width <=1400)
-	{
-		 document.write('<link type="text/css" rel="stylesheet" href="../css/yiqutan111.css" media="screen"  />');
-	}
-	//1600
-    else if(window.screen.width <1900){
-		document.write('<link type="text/css" rel="stylesheet" href="../css/yiqutan1.css" media="screen"  />');
-        
-    }
-    //1900
-    else{
-       document.write('<link type="text/css" rel="stylesheet" href="../css/yiqutan11.css" media="screen"  />');
-    }
-</script>
+<link type="text/css" rel="stylesheet" href="../css/yiqutan1.css" media="screen"  />
+
 
 <script type="text/javascript" src="../js/search.js"></script>
 
 </head>
 
 <body>
-	
+<!--	
 	<div id="head">
 		<table id="tablehead">
 		<tr>
@@ -108,11 +94,80 @@
 		</tr>
 		</table>
 	</div>
+-->
+	<div class="header">
+		<div class="wp">
+		<div class="logo"><a href="#"><img class="sbsbsb" src="../pictures/yiqutan/yiqutanlogo.png" width:330px;  alt="<?=$public_r[sitename]?>"></a></div>
+		
+	      
+		<div class="web_navsb">	
+		<ul>
+		<a class="ybsb" href="#"><li>校园荟萃</li></a>
+		<a class="ybsb" href="#"><li>辅导员说</li></a>
+		<a class="ybsb" href="#"><li>小易半月谈</li></a>
+		<a class="ybsb" href="#"><li>易光影</li></a>
+		</ul>
+		</div>
+		<div id="right">
+		<img id="search" 
+			src="../pictures/yiqutan/sousuolan.png" height=49px; onclick="changesearch()"
+			alt="搜索栏" />
+			
+		<div id="displays"  class="dsp">
+		<table>
+		<tr>
+		
+		<td><input type="text" class="textk" ></td>
+		<td><input  id="sousuob" type="button" value="搜索"></td>
+		
+		</tr>
+		</table>
+		</div>
+		</div>
+		
+		<div class="web_nav">	
+		<ul>
+		<li>全站导航<div class="sub"> 
+		<a target="_blank" href="http://www.whutyiban.com/">理工易班首页</a>
+		<a href="#">易新闻</a>
+		<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=143">易趣谈</a>
+		<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=119">易学院</a>
+		<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=74">易专题</a>
+		<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=148">易课堂</a>
+		<a href="http://www.whutyiban.com/e/action/ListInfo/?classid=61">易班人</a>
+		</div>
+		</li>
+		
+		</ul>
+		</div>
+	
+		<div class="head_info">
+		<a target="_blank" href="#">注册</a>
+		<a target="_blank" href="#">登录</a>
+		</div>
+		
+		
+		<div class="hdif_s clearfix">
+		<form action="/e/search/index.php" method='POST' name="searchform">
+		<input type="submit" class="hds_bt" id="search_key" value="">
+		<input type="text" name="keyboard" class="hds_inp" id="hds_inp" value="" maxlength="20">
+		<input type="hidden" name="classid" value="2">
+		<input type="hidden" name="tempid" value="1">
+		<input type="hidden" name="show" value="title,writer" />
+		</form>
+		<div class="hdifani" id="hdshowsearch"></div>
+		</div>
+							
+		</div>
+	</div>
+		
+	<div style="clear:both; padding-top:50px;"></div>
+
 
 	<div id="lunbo">
 		<br />
 		<div class="poster-main" id="carousel" data-setting='{
-							"width":1085,
+							"width":1030,
 							"height":300,
 							"posterWidth":600,
 							"posterHeight":300,
@@ -124,22 +179,22 @@
 							}'> 
 			   <div class="poster-btn poster-prev-btn"></div> 
 			   <ul class="poster-list"> 
-			    <li class="poster-item"><a href="#"><img src="../pictures/yiqutan/封面图1.png" id="ft1" alt="" width="100%" /></a>
+			    <li class="poster-item"><a href="#"><img src="../pictures/yiqutan/fenmiantu1.png" id="ft1" alt="" width="100%" /></a>
 				<a href="#"><div class="zhebi" id="3">卓越面对面 | 以“心光”为世界明灯，用不屈为人生铺路——卓越奖学金获得者黄莺11</div></a></li> 
-			    <li class="poster-item"><a href="#"><img src="../pictures/yiqutan/封面图2.png" id="ft2" alt="" width="100%" /></a>
+			    <li class="poster-item"><a href="#"><img src="../pictures/yiqutan/fenmiantu2.png" id="ft2" alt="" width="100%" /></a>
 				<a href="#"><div class="zhebi" id="2">卓越面对面 | 以“心光”为世界明灯，用不屈为人生铺路——卓越奖学金获得者黄莺22</div></a></li> 
-			    <li class="poster-item"><a href="#"><img src="../pictures/yiqutan/封面图3.png" id="ft3" alt="" width="100%" /></a>
+			    <li class="poster-item"><a href="#"><img src="../pictures/yiqutan/fenmiantu3.png" id="ft3" alt="" width="100%" /></a>
 				<a href="#"><div class="zhebi" id="1">卓越面对面 | 以“心光”为世界明灯，用不屈为人生铺路——卓越奖学金获得者黄莺33</div></a></li> 
-			    <li class="poster-item"><a href="#"><img src="../pictures/yiqutan/封面图4.png" id="ft4" alt="" width="100%" /></a>
+			    <li class="poster-item"><a href="#"><img src="../pictures/yiqutan/fenmiantu4.png" id="ft4" alt="" width="100%" /></a>
 				<a href="#"><div class="zhebi" id="5">卓越面对面 | 以“心光”为世界明灯，用不屈为人生铺路——卓越奖学金获得者黄莺44</div></a></li> 
-			    <li class="poster-item"><a href="#"><img src="../pictures/yiqutan/封面图5.png" id="ft5" alt="" width="100%" /></a>
+			    <li class="poster-item"><a href="#"><img src="../pictures/yiqutan/fenmiantu5.png" id="ft5" alt="" width="100%" /></a>
 				<a href="#"><div class="zhebi" id="4">卓越面对面 | 以“心光”为世界明灯，用不屈为人生铺路——卓越奖学金获得者黄莺55</div></a></li> 
 			   </ul> 
 			   <div class="poster-btn poster-next-btn"></div> 
 		  </div> 
 		<br />
 		<div id="dian">
-		<table>
+		<table id="diantable">
 		<tr>
 		<td class="tdyuandian"><div class="circle" id="dian1"></div></td>
 		<td class="tdyuandian"><div class="circle" id="dian2"></div></td>
@@ -168,26 +223,26 @@
 	<td class="tablemax">
 	<div id="bodyleft1">
 		<div id="slogan">
-			<img src="../pictures/yiqutan/做精品网络文化作品的创造者.png" width=771px;/>
+			<img src="../pictures/yiqutan/zj.png" width=842px;/>
 		</div>
 		<div class="module" id="xiaoyuanhuicui">
-			<h3><span class="gang"><img src="../pictures/yiqutan/矩形8.png" height=20px; /></span> 校园荟萃 &nbsp <span width=400px;></span><button class="more" id="huicui">更多</button></span></h3>
+			<h3><span class="gang"><img src="../pictures/yiqutan/juxing8.png" height=20px; /></span> 校园荟萃 &nbsp <span width=400px;></span><button class="more" id="huicui">更多</button></span></h3>
 			<table>
 			<tr>
 			<td class="table3">
 			<div class="toutiao">
 			<a href=""><div class="tbp">
-			<img class="bp" src="../pictures/yiqutan/封面图3.png" alt="" width=245px; height=116px;></div></a>
+			<img class="bp" src="../pictures/yiqutan/fenmiantu3.png" alt="" width=256px; height=128px;></div></a>
 			<div class="biaoti">
 			
 				<a target="_blank" href="" class="toutiaoword">卓越面对面 | 锲而不舍、厚积薄发的卓越奖学金获得者——于永灿</a>
 			
 			</div>
 			<div class="jianjie">
-			
-				英才辈出，桃李芬芳，与优秀为伍，向卓越而行。“卓越面对面”今日采访于永灿。
+			<font face="微软雅黑">
+				英才辈出，桃李芬芳，。
 			</font>
-			
+			</div>
 			<div class="time">
 			<font face="微软雅黑">
 				2019-01-16
@@ -199,15 +254,15 @@
 			<td class="table3" id="table3">
 			<div class="toutiao">
 			<a href=""><div class="tbp">
-			<img class="bp" src="../pictures/yiqutan/封面图4.png" alt="" width=245px; height=116px;></div></a>
+			<img class="bp" src="../pictures/yiqutan/fenmiantu4.png" alt="" width=256px; height=128px;></div></a>
 			<div class="biaoti">
-			<font face="华文中宋" color="#000000">
+			<font face="微软雅黑" color="#000000">
 				<a target="_blank" href="" class="toutiaoword">卓越面对面 | 锲而不舍、厚积薄发的卓越奖学金获得者——于永灿</a>
 			</font>
 			</div>
 			<div class="jianjie">
 			<font face="微软雅黑">
-				英才辈出，桃李芬芳，与优秀为伍，向卓越而行。“卓越面对面”今日采访于永灿。
+				英才辈出，桃李芬芳，。
 			</font>
 			</div>
 			<div class="time">
@@ -221,10 +276,13 @@
 			<td class="table3">
 			<div class="toutiao">
 			<a href=""><div class="tbp">
-			<img class="bp" src="../pictures/yiqutan/封面图1.png" alt="" width=245px; height=116px;></div></a>
+			<img class="bp" src="../pictures/yiqutan/fenmiantu1.png" alt="" width=256px; height=128px;></div></a>
 			<div class="biaoti">
-			<font face="华文中宋">
-				<a target="_blank" href="" class="toutiaoword">卓越面对面 | 锲而不舍、厚积薄发的卓越奖学金获得者——于永灿</a>
+			<font face="微软雅黑">
+				<a target="_blank" href="" class="toutiaoword">卓越面对面 | 锲而不舍、厚积薄发的卓越
+				奖学金获得者——于永灿卓越面对面 | 锲而不舍、厚积薄发的卓越奖学金获得者——于永灿卓越面
+				对面 | 锲而不舍、厚积薄发的卓越奖学金获得者——于永灿卓越面对面 | 锲而不舍、厚
+				积薄发的卓越奖学金获得者——于永灿</a>
 			</font>
 			</div>
 			<div class="jianjie">
@@ -245,21 +303,23 @@
 			
 		</div>
 		<div class="module" id="fudaoyuanshuo">
-			<h3><span class="gang"><img src="../pictures/yiqutan/矩形8.png" height=20px; /></span> 辅导员说 &nbsp <span width=500px;></span><button class="more" id="fudaoyuan">更多</button></h3>
+			<h3><span class="gang"><img src="../pictures/yiqutan/juxing8.png" height=20px; /></span> 辅导员说 &nbsp <span width=500px;></span><button class="more" id="fudaoyuan">更多</button></h3>
 			<table>
 			<tr>
 			<td class="table3">
 			<div class="toutiao">
 			<a href=""><div class="tbp">
-			<img class="bp" src="../pictures/yiqutan/封面图3.png" alt="" width=245px; height=116px;></div></a>
+			<img class="bp" src="../pictures/yiqutan/fenmiantu3.png" alt="" width=256px; height=128px;></div></a>
 			<div class="biaoti">
-			<font face="华文中宋">
-				<a target="_blank" href="" class="toutiaoword">卓越面对面 | 锲而不舍、厚积薄发的卓越奖学金获得者——于永灿</a>
+			<font face="微软雅黑">
+				<a target="_blank" href="" class="toutiaoword">卓越面对面 </a>
 			</font>
 			</div>
 			<div class="jianjie">
 			<font face="微软雅黑">
-				英才辈出，桃李芬芳，与优秀为伍，向卓越而行。“卓越面对面”今日采访于永灿。
+				英才辈出，桃李芬芳，与优秀为伍，向卓越而行。“卓越面对面”今日采访于永灿。<br />
+				英才辈出，桃李芬芳，与优秀为伍，向卓越而行。“卓越面对面”今日采访于永灿。<br />
+				英才辈出，桃李芬芳，与优秀为伍，向卓越而行。“卓越面对面”今日采访于永灿。<br />
 			</font>
 			</div>
 			<div class="time">
@@ -273,9 +333,9 @@
 			<td class="table3" id="table3">
 			<div class="toutiao">
 			<a href=""><div class="tbp">
-			<img class="bp" src="../pictures/yiqutan/封面图4.png" alt="" width=245px; height=116px;></div></a>
+			<img class="bp" src="../pictures/yiqutan/fenmiantu4.png" alt="" width=256px; height=128px;></div></a>
 			<div class="biaoti">
-			<font face="华文中宋" color="#000000">
+			<font face="微软雅黑" color="#000000">
 				<a target="_blank" href="" class="toutiaoword">卓越面对面 | 锲而不舍、厚积薄发的卓越奖学金获得者——于永灿</a>
 			</font>
 			</div>
@@ -295,9 +355,9 @@
 			<td class="table3">
 			<div class="toutiao">
 			<a href=""><div class="tbp">
-			<img class="bp" src="../pictures/yiqutan/封面图1.png" alt="" width=245px; height=116px;></div></a>
+			<img class="bp" src="../pictures/yiqutan/fenmiantu1.png" alt="" width=256px; height=128px;></div></a>
 			<div class="biaoti">
-			<font face="华文中宋">
+			<font face="微软雅黑">
 				<a target="_blank" href="" class="toutiaoword">卓越面对面 | 锲而不舍、厚积薄发的卓越奖学金获得者——于永灿</a>
 			</font>
 			</div>
@@ -317,21 +377,22 @@
 			</table>
 		</div>
 		<div class="module" id="banyuetan">
-			<h3><span class="gang"><img src="../pictures/yiqutan/矩形8.png" height=20px; /></span> 小易半月谈<span width=500px;></span><button class="more" id="banyuetan">更多</button></h3>
+			<h3><span class="gang"><img src="../pictures/yiqutan/juxing8.png" height=20px; /></span> 小易半月谈<button class="more" id="banyuetan">更多</button></h3>
 			<table>
 			<tr>
 			<td class="table3">
 			<div class="toutiao">
 			<a href=""><div class="tbp">
-			<img class="bp" src="../pictures/yiqutan/封面图3.png" alt="" width=245px; height=116px;></div></a>
+			<img class="bp" src="../pictures/yiqutan/fenmiantu3.png" alt="" width=256px; height=128px;></div></a>
 			<div class="biaoti">
-			<font face="华文中宋">
-				<a target="_blank" href="" class="toutiaoword">卓越面对面 | 锲而不舍、厚积薄发的卓越奖学金获得者——于永灿</a>
+			<font face="微软雅黑">
+				<a target="_blank" href="" class="toutiaoword">卓越面对面 </a>
 			</font>
 			</div>
 			<div class="jianjie">
 			<font face="微软雅黑">
 				英才辈出，桃李芬芳，与优秀为伍，向卓越而行。“卓越面对面”今日采访于永灿。
+				英才辈出，桃李芬芳，与优秀为伍<br />，向卓越而行。“卓越面对面”今日采访于永灿。
 			</font>
 			</div>
 			<div class="time">
@@ -345,9 +406,9 @@
 			<td class="table3" id="table3">
 			<div class="toutiao">
 			<a href=""><div class="tbp">
-			<img class="bp" src="../pictures/yiqutan/封面图4.png" alt="" width=245px; height=116px;></div></a>
+			<img class="bp" src="../pictures/yiqutan/fenmiantu4.png" alt="" width=256px; height=128x;></div></a>
 			<div class="biaoti">
-			<font face="华文中宋" color="#000000">
+			<font face="微软雅黑" color="#000000">
 				<a target="_blank" href="" class="toutiaoword">卓越面对面 | 锲而不舍、厚积薄发的卓越奖学金获得者——于永灿</a>
 			</font>
 			</div>
@@ -367,9 +428,9 @@
 			<td class="table3">
 			<div class="toutiao">
 			<a href=""><div class="tbp">
-			<img class="bp" src="../pictures/yiqutan/封面图1.png" alt="" width=245px; height=116px;></div></a>
+			<img class="bp" src="../pictures/yiqutan/fenmiantu1.png" alt="" width=256px; height=128px;></div></a>
 			<div class="biaoti">
-			<font face="华文中宋">
+			<font face="微软雅黑">
 				<a target="_blank" href="" class="toutiaoword">卓越面对面 | 锲而不舍、厚积薄发的卓越奖学金获得者——于永灿</a>
 			</font>
 			</div>
@@ -392,53 +453,59 @@
 	</td>
 	<td class="tablemax">
 	<div id="bodyright1">
-		<div id="btbox">
-			<h2 id="changyong">常用按钮</h2>
-			<div class="xiahuaxian"></div>
-			<button class="changbt" id="redbt">1</button>
-			<button class="changbt" id="bluebt">2</button>
-			<button class="changbt" id="greenbt">3</button>
-		</div>
+		<div class="yc4">
+			<div class="lmmc"><div class="mc">热门专题</div><div  class="rmore"><a href="#">更多</a></div></div>
+				<ul>
 		
+				<li>
+					<div class="news_tu"><a href="#" target="_blank" title="#"><img src="../pictures/yiqutan/ds.png" alt="" ></a></div>
+					<div class="news_wz"><a class="bt" href="#" target="_blank" title="#">第三届十佳网络人气班集体</a></div>
+				</li>
+				
+				<li>
+					<div class="news_tu"><a href="#" target="_blank" title="#"><img src="../pictures/yiqutan/fd.png" alt="" ></a></div>
+					<div class="news_wz"><a class="bt" href="#" target="_blank" title="#">第二届辅导员主题网文写作大赛</a></div>
+				</li>
+			
+				</ul>
+		</div>
+					
 		<div id="recommendedbox">
 			<h2><img id="juxing9" 
-			src="../pictures/yiqutan/矩形9.png" 
-			alt="矩形9" />
+			src="../pictures/yiqutan/juxing9.png" 
+			alt="juxing9" />
 			相关推荐</h2>
 			
 			<table>
 			<tr>
-			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/封面图2.png" alt="" width=120px; height=70px;></div></a></td>
+			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/fenmiantu2.png" alt="" width=150px; height=75px;></div></a></td>
 			<td class="infor"><a target="_blank" href="" class="toutiaoword2">卓越面对面 | 采访卓越奖学金获得者——于永灿</a></td>
 			</tr>
 			<tr>
-			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/封面图5.png" alt="" width=120px; height=70px;></div></a></td>
+			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/fenmiantu5.png" alt="" width=150px; height=75px;></div></a></td>
 			<td class="infor"><a target="_blank" href="" class="toutiaoword2">卓越面对面 | 采访卓越奖学金获得者——于永灿</a></td>
 			</tr>
 			<tr>
-			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/封面图3.png" alt="" width=120px; height=70px;></div></a></td>
+			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/fenmiantu3.png" alt="" width=150px; height=75px;></div></a></td>
 			<td class="infor"><a target="_blank" href="" class="toutiaoword2">卓越面对面 | 采访卓越奖学金获得者——于永灿</a></td>
 			</tr>
 			<tr>
-			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/封面图4.png" alt="" width=120px; height=70px;></div></a></td>
+			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/fenmiantu4.png" alt="" width=150px; height=75px;></div></a></td>
 			<td class="infor"><a target="_blank" href="" class="toutiaoword2">卓越面对面 | 采访卓越奖学金获得者——于永灿</a></td>
 			</tr>
 			<tr>
-			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/封面图1.png" alt="" width=120px; height=70px;></div></a></td>
+			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/fenmiantu1.png" alt="" width=150px; height=75px;></div></a></td>
 			<td class="infor"><a target="_blank" href="" class="toutiaoword2">卓越面对面 | 采访卓越奖学金获得者——于永灿</a></td>
 			</tr>
 			<tr>
-			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/封面图2.png" alt="" width=120px; height=70px;></div></a></td>
+			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/fenmiantu2.png" alt="" width=150px; height=75px;></div></a></td>
 			<td class="infor"><a target="_blank" href="" class="toutiaoword2">卓越面对面 | 采访卓越奖学金获得者——于永灿</a></td>
 			</tr>
 			<tr>
-			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/封面图5.png" alt="" width=120px; height=70px;></div></a></td>
+			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/fenmiantu5.png" alt="" width=150px; height=75px;></div></a></td>
 			<td class="infor"><a target="_blank" href="" class="toutiaoword2">卓越面对面 | 采访卓越奖学金获得者——于永灿</a></td>
 			</tr>
-			<tr>
-			<td class="tr1"><a href=""><div class="tbp"><img class="bp2" src="../pictures/yiqutan/封面图3.png" alt="" width=120px; height=70px;></div></a></td>
-			<td class="infor"><a target="_blank" href="" class="toutiaoword2">卓越面对面 | 采访卓越奖学金获得者——于永灿</a></td>
-			</tr>
+			
 			</table>
 			</div>
 	
@@ -450,59 +517,59 @@
 	
 	<div id="yiguangying">
 		<table><tr>
-		<td width="330" id="guangyingt1"><h4><span class="gang"><img src="../pictures/yiqutan/矩形8.png" height=20px;/></span> 易光影</h4></td><td width="1045"><button class="more" id="yiguangyingm">更多</button></td>
+		<td width="330" id="guangyingt1"><h4><span class="gang"><img src="../pictures/yiqutan/juxing8.png" height=20px;/></span> 易光影</h4></td><td width="870px"><button class="more" id="yiguangyingm">更多</button></td>
 		</tr></table>
 		<table id="table2">
 		<tr>
 		<td class="table2"><div class="contentimg">
 		<span class="img_content">
 		<a href="">
-		<img class="guangying" id="1" width=200px;height=140px;
-			src="../pictures/yiqutan/鉴湖.png" 
+		<img class="guangying" id="1" width=210px;height=105px;
+			src="../pictures/yiqutan/jianhu.png" 
 			alt="图">                  
-		<span class="mask" id="1"><span class="zi">鉴湖<br />作者：江炽  </span> </span></a>
+		<span class="mask" id="1"><span class="zi">鉴湖卓越面对面 | 采访卓卓越面对面 | 采访卓鉴湖卓越面对面 | 采访卓卓越面对面 | 采访卓  </span> </span></a>
 		</span>
 		</div>  </td>
 		<td class="table2"><div class="contentimg">
 		<span class="img_content2">
 		<a href="">
-		<img class="guangying" id="2" width=200px;height=140px;
-			src="../pictures/yiqutan/鉴湖.png" 
+		<img class="guangying" id="2" width=210px;height=105px;
+			src="../pictures/yiqutan/jianhu.png" 
 			alt="图">                  
-		<span class="mask" id="2"><span class="zi">鉴湖<br />作者：江炽  </span> </span></a>
+		<div class="mask" id="2"><span class="zi">鉴湖</span> </div></a>
 		</span>
 		</div>  </td>
 		<td class="table2"><div class="contentimg">
 		<span class="img_content3">
 		<a href="">
-		<img class="guangying" id="3" width=200px;height=140px;
-			src="../pictures/yiqutan/鉴湖食堂.png" 
+		<img class="guangying" id="3" width=210px;height=105px;
+			src="../pictures/yiqutan/jianhus.png" 
 			alt="图">                  
-		<span class="mask" id="3"><span class="zi">鉴湖食堂<br />作者：江炽  </span> </span></a>
+		<span class="mask" id="3"><span class="zi">鉴湖食堂 </span> </span></a>
 		</span>
 		</div>  </td>
 		<td class="table2"><div class="contentimg">
 		<span class="img_content4">
 		<a href="">
-		<img class="guangying" id="4" width=200px;height=140px;
-			src="../pictures/yiqutan/理工广场夜景.png" 
+		<img class="guangying" id="4" width=210px;height=105px
+			src="../pictures/yiqutan/ligongg.png" 
 			alt="图">                  
-		<span class="mask" id="4"><span class="zi">理工广场夜景<br />作者：江炽  </span> </span></a>
+		<span class="mask" id="4"><span class="zi">理工广场夜景 </span> </span></a>
 		</span>
 		</div>  </td>
 		<td class="table2"><div class="contentimg">
 		<span class="img_content5">
 		<a href="">
-		<img class="guangying" id="5" width=200px;height=140px;
-			src="../pictures/yiqutan/图书馆.png" 
+		<img class="guangying" id="5" width=210px;height=105px;
+			src="../pictures/yiqutan/tushuguan.png" 
 			alt="图">                  
-		<span class="mask" id="5"><span class="zi">图书馆侧面<br />作者：江炽  </span> </span></a>
+		<span class="mask" id="5"><span class="zi">图书馆侧面  </span> </span></a>
 		</span>
 		</div> </td>
 		</tr>
 		</table>
 	</div>
-
+	<!--
 	<div id="foot">
 	<table id="tablefoot">
 	<tr>
@@ -547,5 +614,38 @@
 	</tr>
 	</table>
 	</div>
+	-->
+	<div class="footer">
+		<div class="wp">
+		
+		
+		<div class="copyright">
+			<div class="wnav">
+				<a href="#">理工易班首页</a>
+				<a href="#">易新闻</a>
+				<a href="#">易趣谈</a>
+				<a href="#">易专题</a>
+				<a href="#">易班人</a>
+				<a href="#">理工资料库</a>
+			</div>
+			<div class="bq">Copyright 2016 Whutyiban All rights reserved.武汉理工大学易班学生工作站 | 鄂ICP备16010404号 </div>
+			<div class="bq">尾部信息</div>
+		</div>
+			
+		<div class="ewm">
+			<div class="qr">
+			<img src="../pictures/yiqutan/wechat.jpg" alt="微信二维码">
+			<div class="txt">关注微信</div>
+			</div>
+			<div class="qr">
+			<img src="../pictures/yiqutan/QQ.jpg" alt="QQ空间">
+			<div class="txt">关注QQ</div>
+			</div>
+		</div>
+
+        
+		</div>
+	</div>
+	
 </body>
 </html>
